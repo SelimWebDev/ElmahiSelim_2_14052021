@@ -6,9 +6,10 @@ header {
 }
 
 .menu {
+    width: 400px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: auto;
     margin-bottom: auto;
     background-color: aquamarine;
