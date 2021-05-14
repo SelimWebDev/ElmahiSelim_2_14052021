@@ -37,6 +37,33 @@ a:focus {
     align-items: center;
 }
 
-h1 {
-    
+h1{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#search_block{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+#search_icone {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+}
+
+#search_btn {
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#search_input {
+    border: 1px solid #F2F2F2;
 }
