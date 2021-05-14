@@ -15,12 +15,25 @@ header {
     justify-content: space-between;
 }
 
+.menu_link {
+    text-decoration: none;
+    color: #0065FC;
+}
+
+a:hover {
+    border-top: 1px solid #0065FC;
+    line-height: 4em;
+}
+
+a:focus {
+    color: black;
+}
+
 .menu {
     width: 400px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: auto;
-    margin-bottom: auto;
-    background-color: aquamarine;
+    align-items: center;
 }
+
