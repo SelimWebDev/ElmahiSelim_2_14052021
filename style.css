@@ -3,8 +3,11 @@
     src: url('./police/Raleway-VariableFont_wght.ttf');
 }
 
-body{
+*{
     font-family: 'Raleway';
+}
+
+body {
     margin-right: 30px;
     margin-left: 30px;
 }
@@ -44,6 +47,7 @@ h1{
 
 #search_block{
     margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
     flex-direction: row;
     height: 40px;
@@ -66,4 +70,32 @@ h1{
 
 #search_input {
     border: 1px solid #F2F2F2;
+}
+
+#filter_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.filter_div {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter_icone {
+    padding: 8px;
+    color: #0065FC ;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+}
+
+.filter_btn {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-left: -5px;
+    border: 2px solid #F2F2F2;
+    border-left: none;
 }
