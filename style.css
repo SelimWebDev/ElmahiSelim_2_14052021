@@ -42,7 +42,7 @@ a:focus {
 
 h1{
     margin-top: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #search_block{
@@ -76,7 +76,8 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 700px;
+    width: 800px;
+    margin-bottom: 25px;
 }
 
 .filter_div {
@@ -99,3 +100,50 @@ h1{
     border: 2px solid #F2F2F2;
     border-left: none;
 }
+
+#row_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#hebergement_block {
+    background-color: #F2F2F2;
+    padding-top: 2px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 1000px;
+}
+
+#populaire_block {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+.heb_fig {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pop_fig {
+    background-color: white;
+    border-radius: 10px;
+    height: 100px;
+}
+
+#display_heb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#display_pop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
