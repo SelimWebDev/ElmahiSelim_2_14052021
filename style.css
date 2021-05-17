@@ -100,9 +100,8 @@ h1{
     background-color: white;
     border: 2px solid #F2F2F2;
     padding: 0px;
-    border-top-right-radius: 100%;
-    border-bottom-right-radius: 100%;
-    border
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 .filter {
@@ -163,4 +162,3 @@ h1{
     flex-direction: column;
     justify-content: space-between;
 }
-
