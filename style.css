@@ -80,9 +80,6 @@ h1{
     margin-bottom: 25px;
 }
 
-/*.filter_div {
-}*/
-
 .filter_icone {
     position: relative;
     padding: 10px;
@@ -110,11 +107,10 @@ h1{
     padding-right: 10px;
 }
 
-#hebergement {
+.row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 100%;
 }
 
 #hebergement_block {
@@ -127,6 +123,21 @@ h1{
 
 #populaire_block {
     background-color: #F2F2F2;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.heb_img {
+    width: 200px;
+    height: auto;
+    max-height: 133px;
+}
+
+.pop_fig {
+    background-color: white;
+    width: 300px;
+    height: 130px;
+    padding: 10px;
     border-radius: 10px;
 }
 
@@ -142,23 +153,9 @@ h1{
     margin-left: 40px;
 }
 
-.pop_fig {
-    background-color: white;
-    border-radius: 10px;
-    height: 100px;
-    width: 200px;
-    padding: 10px;
-}
-
 #display_heb {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#display_pop {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
