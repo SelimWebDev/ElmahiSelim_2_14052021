@@ -7,7 +7,7 @@
     font-family: 'Raleway';
 }
 
-body {
+header, main {
     margin-right: 30px;
     margin-left: 30px;
 }
@@ -23,9 +23,9 @@ header {
     color: #0065FC;
 }
 
-a:hover {
+.menu_link:hover {
     border-top: 1px solid #0065FC;
-    line-height: 4em;
+    line-height: 4em;    
 }
 
 a:focus {
@@ -182,4 +182,28 @@ h1{
 
 .act_img {
     border-radius: 10px;
+}
+
+footer {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_col {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#activites {
+    margin-bottom: 15px;
 }
