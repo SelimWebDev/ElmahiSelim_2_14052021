@@ -105,6 +105,7 @@ h1{
     margin-top: 8px;
     padding-left: 8px;
     padding-right: 10px;
+    font-weight: bold;
 }
 
 .row_top {
@@ -115,10 +116,8 @@ h1{
 
 .row_bot {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     justify-content: space-between;
-    height: 500px;
+    height: 550px;
 }
 
 .column {
@@ -177,11 +176,12 @@ h1{
 
 .act_fig{
     margin: 0;
-    border-radius: 10px;
+    box-shadow: 0px 0px 20px #0000002e;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .act_img {
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 footer {
@@ -206,4 +206,15 @@ footer {
 
 #activites {
     margin-bottom: 15px;
+}
+
+.div_act{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.act_caption {
+    padding-left: 15px;
+    height: 30px;
 }
