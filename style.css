@@ -102,6 +102,11 @@ h1{
     height: 40px;
 }
 
+.filter_title {
+    display: flex;
+    align-items: center;
+}
+
 .filter_text {
     font-weight: bold;
     margin-left: 10px;
@@ -184,6 +189,14 @@ h1{
     height: 200px;
     padding: 10px;
     border-radius: 10px;
+}
+
+.heb_link {
+    text-decoration: none;
+}
+
+.heb_link:visited {
+    color: black;
 }
 
 /*              ***********             */
