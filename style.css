@@ -88,40 +88,39 @@ h1{
 /*              BARRE DE FILTRE             */
 
 #filter_block {
+    margin-bottom: 15px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 800px;
-    margin-bottom: 25px;
-}
-
-.filter_icone {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10%;
-    color: #0065FC ;
-    background-color: #DEEBFF;
-    border-radius: 100%;
-    width: 20px;
-    height: 20px;
-    margin: -2px;
-}
-
-.filter_btn {
-    display: flex;
-    align-items: center;
-    border: 2px solid #F2F2F2;
-    border-radius: 2rem;
 }
 
 .filter {
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    border: 2px solid #F2F2F2;
+    height: 40px;
 }
 
-.filter_txt {
+.filter_text {
     font-weight: bold;
-    padding: 0 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.filter_icone_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #DEEBFF;
+    height: 40px;
+    width: 40px;
+    margin-left: -2px;
+}
+
+.filter_icone {
+    color: #0065FC;
 }
 
 /*              **********              */
