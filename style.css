@@ -30,14 +30,21 @@ header {
     justify-content: space-between;
 }
 
+.div_link:hover {
+    border-top: 1px solid #0065FC;
+}
+
 .menu_link {
     text-decoration: none;
     color: #0065FC;
-    border-top: 1px solid white;
     line-height: 4em;
 }
 
-.menu_link:hover {
+#link_inscr {
+    border-top: 1px solid white;
+}
+
+#link_inscr:hover {
     border-top: 1px solid #0065FC;
 }
 
@@ -57,11 +64,6 @@ a:focus {
 
 a {
     text-decoration: none;
-}
-
-h1{
-    margin-top: 25px;
-    margin-bottom: 10px;
 }
 
 /*              BARRE DE RECHERCHE              */
@@ -197,6 +199,12 @@ h1{
     cursor: pointer;
 }
 
+.heb_fig_title {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
 .heb_wrap_img {
     position: relative;
     width: 100%;
@@ -221,6 +229,12 @@ h1{
     color: black;
 }
 
+#aff_plus {
+    width: 100%;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
 /*              ***********             */
 
 .fas.fa-star {
@@ -242,6 +256,13 @@ h1{
     width: 25%;
 }
 
+#pop_title {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .pop_fig {
     display: flex;
     background-color: white;
@@ -252,7 +273,6 @@ h1{
 }
 
 .pop_wrap_img {
-    position: relative;
     width: 33%;
     height: 100%;
 }
@@ -314,7 +334,7 @@ h1{
     display: flex;
     align-items: center;
     padding-left: 15px;
-    height: 80px;
+    height: 10%;
 }
 
 .act_txt {
@@ -353,6 +373,7 @@ h1{
 
 /*              **********              */
 
+/*              footer        */
 footer {
     background-color: #F2F2F2;
     display: flex;
@@ -372,6 +393,8 @@ footer {
     color: black;
     margin-bottom: 10px;
 }
+
+/*              **********              */
 
 /*              Media Queries               */
 
@@ -399,9 +422,6 @@ footer {
     .heb_fig {
         width: 35%;
     }
-    #filter_block {
-        width: 100%;
-    }
 
     #populaire_block {
         flex-direction: column;
@@ -423,12 +443,107 @@ footer {
 }
 
 @media screen and (max-width: 760px){
+
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    header {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .logo {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    #link_inscr  {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-right: 30px;
+        font-weight: bold;
+        border-bottom: none;
+        color: #0065FC;
+    }
+
+    .div_link {
+        border-bottom: 2px solid #bdbdbd;
+        width: 50%;
+        text-align: center;
+    }
+
+    .div_link:hover {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+
+    .menu_link {
+        color: black;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    #under_title {
+        display: flex;
+        justify-content: center;
+    }
+
+    #search_block {
+        margin-left: 30px;
+        margin-right: 30px;
+        justify-content: center;
+    }
+
+    #filter_block {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .heb_title {
+        margin-left: 0px;
+    }
+
+    .heb_wrap_img {
+        height: 60%;
+    }
+
+    #populaire_block {
+        background-color: white;
+    }
+
+    .pop_fig {
+        box-shadow: 0px 0px 20px #0000002e;
+    }
+
+    #hebergement  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     #display_heb {
         flex-direction: column;
         align-items: center;
     }
+
     .heb_fig {
         width: 70%;
+    }
+
+    .heb_fig_title {
+        margin-bottom: 3px;
+    }
+
+    #aff_plus {
+        width: auto;
+        margin-left: 0px;
     }
 
     #activites {
@@ -446,7 +561,12 @@ footer {
     }
 
     .fig_link {
-        width: 70%;
+        width: 85%;
+        height: 150px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .div_act {
@@ -454,12 +574,12 @@ footer {
         align-items: center;
     }
 
-    .act_fig {
-        margin-bottom: 20px;
+    .act_wrap_bimg, .act_wrap_mimg, .act_wrap_simg {
+        height: 75%;
     }
 
-    .act_fig_col {
-        margin-bottom: 20px;
+    .act_caption {
+        height: 25%;
     }
 
     footer {
@@ -476,6 +596,10 @@ footer {
 
     header {
         display: block;
+    }
+
+    .filter_title {
+        width: 100%;
     }
 }
 /*              ***********             */
