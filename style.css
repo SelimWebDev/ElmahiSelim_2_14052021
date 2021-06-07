@@ -94,6 +94,13 @@ a {
     color: white;
     border: none;
     border-radius: 0px 10px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fas.fa-search {
+    display: none;
 }
 
 #search_input {
@@ -490,12 +497,6 @@ footer {
         color: black;
     }
 
-    h1 {
-        font-size: 1.5em;
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-
     #under_title {
         display: flex;
         justify-content: center;
@@ -505,6 +506,14 @@ footer {
         margin-left: 30px;
         margin-right: 30px;
         justify-content: center;
+    }
+
+    .fas.fa-search {
+        display: block;
+    }
+
+    #search_txt {
+        display: none;
     }
 
     #filter_block {
