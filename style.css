@@ -195,7 +195,7 @@ a {
 .row_bot {
     display: flex;
     justify-content: space-between;
-    height: 800px;
+    height: 440px;
 }
 
 .column {
@@ -374,7 +374,7 @@ a {
     display: flex;
     align-items: center;
     padding-left: 15px;
-    height: 80px;
+    height: 55px;
 }
 
 .act_txt {
@@ -384,19 +384,31 @@ a {
 .act_wrap_bimg {
     position: relative;
     width: 100%;
-    height: 90%;
+    height: 390px;
 }
 
-.act_wrap_mimg {
-    position: relative;
-    width: 100%;
-    height: 300px;
-}
-
-.act_wrap_simg {
+.act_wrap_img_one {
     position: relative;
     width: 100%;
     height: 180px;
+}
+
+.act_wrap_img_two {
+    position: relative;
+    width: 100%;
+    height: 110px;
+}
+
+.act_wrap_img_three {
+    position: relative;
+    width: 100%;
+    height: 140px;
+}
+
+.act_wrap_img_four {
+    position: relative;
+    width: 100%;
+    height: 150px;
 }
 
 .act_img {
