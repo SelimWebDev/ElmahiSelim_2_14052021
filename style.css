@@ -143,8 +143,9 @@ a {
 
 .filter_text {
     font-weight: bold;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: x-large;
 }
 
 .filter_icone_div {
@@ -437,6 +438,10 @@ footer {
 }
 
 @media screen and (max-width: 1100px){
+    #filter_block {
+        width: 80%;
+    }
+
     .heb_fig {
         width: 35%;
     }
