@@ -163,6 +163,27 @@ a {
     color: #0065FC;
 }
 
+#info {
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+    margin-bottom: 15px;
+}
+
+#info_icone {
+    border-radius: 100%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+}
+
+.fas.fa-info {
+    color: #0065FC;
+}
+
 /*              **********              */
 
 .row_top {
