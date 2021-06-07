@@ -246,6 +246,7 @@ a {
     width: 100%;
     margin-left: 40px;
     text-decoration: none;
+    color: black;
 }
 
 /*              ***********             */
@@ -526,35 +527,37 @@ footer {
     }
 
     .heb_title {
-        margin-left: 0px;
+        margin-left: 25px;
     }
 
     .heb_wrap_img {
         height: 60%;
     }
 
-    #populaire_block {
-        background-color: #F2F2F2;
+    #pop_title {
+        margin-left: 25px;
     }
 
-    .pop_fig {
-        box-shadow: 0px 0px 20px #0000002e;
+    #populaire_block {
+        background-color: #F2F2F2;
+        margin-bottom: 15px;
+        align-items: unset;
     }
 
     #hebergement  {
         background-color: white;
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
 
     #display_heb {
         flex-direction: column;
-        align-items: center;
+        align-items: unset
     }
 
     .heb_fig {
         width: 70%;
+        box-shadow: 0px 0px 20px #0000002e;
     }
 
     .heb_fig_title {
@@ -563,13 +566,17 @@ footer {
 
     #aff_plus {
         width: auto;
-        margin-left: 0px;
+        margin-left: 25px;
+
     }
 
     #activites {
-        align-items: center;
         display: flex;
         flex-direction: column;
+    }
+
+    #act_title {
+        margin-left: 25px;
     }
 
     .row_bot {
