@@ -32,12 +32,17 @@ header {
 
 .div_link:hover {
     border-top: 1px solid #0065FC;
+    color: #0065FC;
 }
 
 .menu_link {
     text-decoration: none;
-    color: #0065FC;
+    color: black;
     line-height: 4em;
+}
+
+.menu_link:hover {
+    color: #0065FC;
 }
 
 #link_inscr {
