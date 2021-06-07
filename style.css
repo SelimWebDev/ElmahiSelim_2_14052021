@@ -67,6 +67,10 @@ a:focus {
 
 /*              ***********             */
 
+h1 {
+    font-size: large;
+}
+
 a {
     text-decoration: none;
 }
@@ -496,6 +500,15 @@ footer {
 
     .menu_link {
         color: black;
+    }
+
+    h1 {
+        width: 60%;
+    }
+
+    #title {
+        display: flex;
+        justify-content: center;
     }
 
     #under_title {
