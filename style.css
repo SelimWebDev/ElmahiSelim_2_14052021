@@ -541,7 +541,7 @@ footer {
     }
 
     h1 {
-        width: 60%;
+        text-align: center;
     }
 
     #title {
@@ -571,6 +571,20 @@ footer {
     #filter_block {
         margin-left: 30px;
         margin-right: 30px;
+    }
+
+    .filter_text {
+        margin-bottom: 5px;
+        font-size: large
+    }
+    
+    .filter {
+        margin-bottom: 5px;
+    }
+
+    #info {
+        width: 90%;
+        margin-left: 30px;
     }
 
     .row_top {
@@ -652,7 +666,7 @@ footer {
         align-items: center;
     }
 
-    .act_wrap_bimg, .act_wrap_mimg, .act_wrap_simg {
+    .act_wrap_bimg, .act_wrap_img_one, .act_wrap_img_two, .act_wrap_img_three, .act_wrap_img_four {
         height: 75%;
     }
 
