@@ -566,6 +566,13 @@ footer {
 
     #search_txt {
         display: none;
+        
+    }
+
+    #search_btn {
+        width: 40px;
+        border-radius: 10px;
+        margin-left: -5px;
     }
 
     #filter_block {
@@ -574,7 +581,6 @@ footer {
     }
 
     .filter_text {
-        margin-bottom: 5px;
         font-size: large
     }
     
@@ -600,13 +606,12 @@ footer {
     }
 
     #pop_title {
-        margin-left: 25px;
+        width: 90%;
     }
 
     #populaire_block {
         background-color: #F2F2F2;
         margin-bottom: 15px;
-        align-items: unset;
     }
 
     #hebergement  {
