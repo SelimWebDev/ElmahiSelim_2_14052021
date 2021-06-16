@@ -321,7 +321,8 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .pop_title {
@@ -581,7 +582,9 @@ footer {
     }
 
     .filter_text {
-        font-size: large
+        font-size: large;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     
     .filter {
